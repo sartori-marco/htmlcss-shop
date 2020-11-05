@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 
+
 .contenitore{
   width: 950px;
   height: 950px;
   background-color: red;
   margin: 10px;
 }
+
 
 .box{
   display: inline-block;
@@ -25,4 +27,23 @@
 
 .box:nth-child(even) .discount{
   background-color: red;
+}
+
+.box .heart{
+  position: absolute;
+  color: red;
+  bottom: 10px;
+  left: 50%;
+  width: 100%;
+  font-size: 30px;
+  display: none;
+}
+
+
+
+.box:hover{
+cursor: pointer}
+
+.box:hover .heart{
+  display: block;
 }
