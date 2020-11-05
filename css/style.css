@@ -4,14 +4,10 @@
   box-sizing: border-box;
 }
 
-
 .contenitore{
   width: 950px;
-  height: 950px;
-  background-color: red;
   margin: 10px;
 }
-
 
 .box{
   display: inline-block;
@@ -33,13 +29,11 @@
   position: absolute;
   color: red;
   bottom: 10px;
-  left: 50%;
   width: 100%;
+  left: 45%;
   font-size: 30px;
   display: none;
 }
-
-
 
 .box:hover{
 cursor: pointer}
